@@ -1,0 +1,83 @@
+main{
+    padding-top: 5vw;
+    
+}
+
+.box > h2{
+    font-size: 4em;
+
+}
+
+.radio-div{
+    padding: 50px 0;
+    font-size: 2em;
+}
+
+.radio-input{
+    padding-right: 10px;
+    height: 100%;
+}
+
+.offers{
+    flex-wrap: nowrap;
+}
+
+.subscription{
+    font-size: 1.2em;
+    width: calc(100%/3 - 40px);
+    border: 1px solid var(--color-bg-gray);
+    padding: 20px 5px;
+    
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+ul{
+    margin: 20px 0;
+}
+
+li{
+    
+    list-style: none;
+}
+
+.subscription-top{
+
+    padding-bottom: 2%;
+    text-align: center;
+    border-bottom: 1px solid var(--color-bg-gray);
+}
+
+.acquista-ora{
+    padding-top: 30px;
+}
+
+.acquista-ora > a{
+    color: var(--color-btn-blue);
+    text-decoration: underline;
+}
+
+.acquista-ora > hr{
+    margin: 40px;
+    width: calc(100%/7);
+}
+
+.offer > h4{
+    font-weight: bolder;
+    font-style: bolder;
+}
+
+.fa-check{
+    color: var(--color-btn-blue);
+}
+
+.subscription-content{
+    padding: 40px 5%;
+    line-height: 40px;
+}
+
+.subscription-content > button{
+    min-width: 90%;
+}

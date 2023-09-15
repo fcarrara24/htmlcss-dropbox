@@ -26,14 +26,7 @@ nav{
     display: flex;
     align-items: center;
 }
-button{
-    font-size: 2em;
-    /* borders removal and shadow */
-    border: 0px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
-    padding: 7px;
-    background-color: var(--color-btn-blue);
-}
+
 
 
 

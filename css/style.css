@@ -47,7 +47,7 @@ body{
 }
 
 .inner-container{
-    width: 1000px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -89,3 +89,14 @@ a{
     
 }
 
+/* buttons */
+
+button{
+    font-size: 2em;
+    /* borders removal and shadow */
+    border: 0px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
+    padding: 2% 3%;
+    background-color: var(--color-btn-blue);
+    color: var(--color-text-white);
+}
