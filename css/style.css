@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-btn-blue: #4085fb;
+	--color-bg-blue: #c6dbed;
+	--color-sqr-green: #a2d39b;
+	--color-sqr-brown: #61082b;
+	--color-sqr-mid-blue: #0093ce;
+	--color-sqr-lt-red: #ff1c1c;
+	--color-sqr-str-red: #d5001f;
+	--color-sqr-lt-blue: #b4d0e7;
+	--color-sqr-strong-blue: #0d2481;
+	--color-sqr-yellow: #ffd830;
+	--color-bg-gray: #f5f5f5;
+	--color-text-strong-gray: #424242;
+	--color-text-lt-gray: #686767;
+	--color-text-white: #eef0f2;
+    --color-text-black: #000;
+}
+
+.debug{
+    background-color: #a2d39b;
+}
+
+.outer-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inner-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+/* img */
+
+.img-container{
+    height: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+/* a */
+a{
+    color: var(--color-text-black);
+    text-decoration: none;
+    
+}

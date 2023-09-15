@@ -1,0 +1,40 @@
+nav{
+    
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-text-white);
+}
+
+.nav-containers{
+    background-color: green;
+    padding: 10px;
+    /* flex-basis: 50%; */
+}
+
+.nav-containers .justify-end{
+    background-color: red;
+}
+
+.nav-text-container{
+    align-items: center;
+    font-size: 2em;
+}
+
+.nav-text-container > a{
+    
+    padding: 0 0.7em;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+}
+button{
+    font-size: 2em;
+    /* borders removal and shadow */
+    border: 0px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
+    padding: 7px;
+    background-color: var(--color-btn-blue);
+}
