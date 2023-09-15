@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: "";
+     clear: both;
+    display: table;
+}
+
 :root {
 	--color-btn-blue: #4085fb;
 	--color-bg-blue: #c6dbed;
@@ -20,6 +26,15 @@
 	--color-text-lt-gray: #686767;
 	--color-text-white: #eef0f2;
     --color-text-black: #000;
+
+    --nav-height:100px;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif; 
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Space Grotesk', sans-serif; 
 }
 
 .debug{
@@ -27,7 +42,7 @@
 }
 
 .outer-container{
-    width: 1200px;
+    max-width: 2200px;
     margin: 0 auto;
 }
 
@@ -63,6 +78,7 @@
 }
 
 img{
+    width: 100%;
     height: 100%;
 }
 
@@ -72,3 +88,4 @@ a{
     text-decoration: none;
     
 }
+

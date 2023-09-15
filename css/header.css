@@ -2,19 +2,15 @@ nav{
     
     flex-flow: row nowrap;
     width: 100%;
-    height: 100px;
-    background-color: var(--color-text-white);
+    height: var(--nav-height);
+    background-color: white;
 }
 
 .nav-containers{
-    background-color: green;
     padding: 10px;
-    /* flex-basis: 50%; */
+    
 }
 
-.nav-containers .justify-end{
-    background-color: red;
-}
 
 .nav-text-container{
     align-items: center;
@@ -37,4 +33,52 @@ button{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
     padding: 7px;
     background-color: var(--color-btn-blue);
+}
+
+
+
+
+.hero {
+    background-color: var(--color-bg-blue);
+    padding-top: var(--nav-height);
+    height: 1300px;
+}
+
+.hero > .outer-container{
+    height: calc(100% + 3vw);
+}
+
+
+.hero > .outer-container > h1{
+    
+    font-style: bold;
+    font-weight: bold;
+    font-size: 8em;
+    margin: 3vw 0;
+}
+
+.hero-text{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 35%;
+    flex-shrink: 0;
+    height: 600px;
+
+    /* grandezza del font */
+
+    font-size: 1.7em;
+}
+
+.text > button{
+    margin: 40px 0;
+}
+
+.arrow{
+    justify-self: flex-end;
+    font-size: 3em;
+}
+
+.hero-img{
+    
+
 }
