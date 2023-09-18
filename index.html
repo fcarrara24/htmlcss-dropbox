@@ -16,6 +16,7 @@
 </head>
 <body>
     <header>
+
         <nav class="fixed flex space-between">
             <div class="nav-containers flex justify-start">
                 <div class="img-container">
@@ -71,12 +72,15 @@
         <div class="inner-container box">
             <h2>Trova il piano buisness che fa per te</h2>
             <div class="radio-div">
-                <span class="radio-input"><input type="radio" id="rd1"><label for="rd1">fatturazione mensile</label></span>
+
+                <span class="radio-input"><input type="radio" id="rd1" name="cadenza_fatturazione" checked ><label for="rd1">fatturazione mensile</label></span>
             
-                <span class="radio-input"><input type="radio" id="rd2"><label for="rd2">fatturazione annuale</label></span>
+                <span class="radio-input"><input type="radio" id="rd2" name="cadenza_fatturazione"><label for="rd2">fatturazione annuale</label></span>
             </div>
             <div class="offers flex space-between">
+
                 <div class="subscription">
+
                     <div class="subscription-top">
                         <i class="fa-solid fa-user"></i>&nbsp;Singolo
                     </div>
@@ -108,19 +112,20 @@
 
 
                 <div class="subscription">
+
                     <div class="subscription-top">
                         <i class="fa-solid fa-users"></i>&nbsp;Team
                     </div>
                     <div class="subscription-content">
                         <div class="addressee">
-                            <h3>Professional</h3>
+                            <h3>Advanced</h3>
                             <div class="price">&euro;&nbsp;18.00</div>
                             <div class="frequency">/utente/mese</div>
                         </div>
                         <ul>
                             <li><i class="fa-solid fa-users"></i>&nbsp;3 o più utenti</li>
                             <li><i class="fa-solid fa-folder"></i>&nbsp;Tutto lo spazio di cui ha bisopgno il team</li>
-                            <li><i class="fa-solid fa-share-nodes"></i>&nbsp;Sofisticate funzioni di controllo e per tener5e al sicuro tutti i file del tuo team</li>
+                            <li><i class="fa-solid fa-share-nodes"></i>&nbsp;Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
                         </ul>
                         <button>Prova gratis per 30 giorni</button>
                         <div class="acquista-ora">
@@ -144,14 +149,14 @@
                     </div>
                     <div class="subscription-content">
                         <div class="addressee">
-                            <h3>Professional</h3>
+                            <h3>Enterprise</h3>
                             <div class="price">Contattaci</div>
                             <div class="frequency">/mese</div>
                         </div>
                         <ul>
                             <li><i class="fa-solid fa-user"></i>&nbsp;10 o più utenti</li>
                             <li><i class="fa-solid fa-folder"></i>&nbsp;Soluzioni personalizzabili per la tua azienda</li>
-                            <li><i class="fa-solid fa-share-nodes"></i>&nbsp;Assistenza personalizzata per aiutare gli amministratorei in una gestione su larga scala</li>
+                            <li><i class="fa-solid fa-share-nodes"></i>&nbsp;Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
                         </ul>
                         <button>Prova gratis per 30 giorni</button>
                         <div class="acquista-ora">
@@ -169,6 +174,28 @@
                     </div>
                 </div>
             </div>
+            <!-- crea dei flex start per dividere gli elementi dei bottoni -->
+
+            <!-- ... -->
+
+            <!-- brand => quadratoni 
+                puoi mettere la width degli elementti come calc(100% / 3) e flex-shribnk
+
+                left
+                center
+                right
+            -->
+            <section class="flex space-between" id="brand">
+                <div class="brand-box"></div>
+                <div class="brand-box">
+                    <!-- per evitare problemi di overflow puoi mettere overflow auto degli elementi all'interno di questo contenitore -->
+                </div>
+                <div class="brand-box flex"></div>
+            </section>
+
+
+            <!-- faq
+            puoi scegliere di mettre dei summary per aprire gli elementi all'interno del tag -->
         </div>
     </main>
 </body>

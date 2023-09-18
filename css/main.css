@@ -4,26 +4,27 @@ main{
 }
 
 .box > h2{
-    font-size: 4em;
+    font-size: 2em;
 
 }
 
 .radio-div{
     padding: 50px 0;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .radio-input{
-    padding-right: 10px;
+    padding-right: 40px;
     height: 100%;
 }
+
 
 .offers{
     flex-wrap: nowrap;
 }
 
 .subscription{
-    font-size: 1.2em;
+    font-size: 1em;
     width: calc(100%/3 - 40px);
     border: 1px solid var(--color-bg-gray);
     padding: 20px 5px;
@@ -31,7 +32,7 @@ main{
 }
 
 h3{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 ul{
@@ -60,7 +61,7 @@ li{
 }
 
 .acquista-ora > hr{
-    margin: 40px;
+    margin: 40px 0;
     width: calc(100%/7);
 }
 
@@ -75,9 +76,22 @@ li{
 
 .subscription-content{
     padding: 40px 5%;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .subscription-content > button{
     min-width: 90%;
+}
+
+/* post-correzione */
+#brand{
+    width: 100%;
+}
+
+#rd1{
+    transform: translate(0, 1px);
+}
+
+#rd2{
+    transform: translate(0, 1px);
 }

@@ -11,10 +11,19 @@ nav{
     
 }
 
+.btn-container > button{
+    padding: 5px 10px;
+    font-size: 1em;
+}
+
+.nav-containers > .img-container{
+    align-self: center;
+    height: 1.5em;
+}
 
 .nav-text-container{
     align-items: center;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .nav-text-container > a{
@@ -34,11 +43,12 @@ nav{
 .hero {
     background-color: var(--color-bg-blue);
     padding-top: var(--nav-height);
-    height: 1300px;
+    height: 700px;
 }
 
 .hero > .outer-container{
-    height: calc(100% + 3vw);
+    /* height: calc(100% - 3vw); */
+    height: 500px;
 }
 
 
@@ -46,7 +56,7 @@ nav{
     
     font-style: bold;
     font-weight: bold;
-    font-size: 8em;
+    font-size: 4em;
     margin: 3vw 0;
 }
 
@@ -55,11 +65,11 @@ nav{
     flex-flow: column wrap;
     flex-basis: 35%;
     flex-shrink: 0;
-    height: 600px;
+    height: 300px;
 
     /* grandezza del font */
 
-    font-size: 1.7em;
+    font-size: 1em;
 }
 
 .text > button{
@@ -71,7 +81,3 @@ nav{
     font-size: 3em;
 }
 
-.hero-img{
-    
-
-}

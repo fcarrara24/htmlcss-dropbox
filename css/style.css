@@ -27,7 +27,7 @@
 	--color-text-white: #eef0f2;
     --color-text-black: #000;
 
-    --nav-height:100px;
+    --nav-height:50px;
 }
 
 body{
@@ -42,12 +42,14 @@ body{
 }
 
 .outer-container{
-    max-width: 2200px;
+    /* max-width: 2200px; */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .inner-container{
-    max-width: 2000px;
+    /* max-width: 2000px; */
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -92,7 +94,7 @@ a{
 /* buttons */
 
 button{
-    font-size: 2em;
+    font-size: 1em;
     /* borders removal and shadow */
     border: 0px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
