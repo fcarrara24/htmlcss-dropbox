@@ -250,37 +250,109 @@ li > i{
     filter: invert(1);
 }
 
+
+
 #Designit{
     background-color: var(--color-sqr-green);
 }
 
+#Designit-gh{
+    display: inline-block;
+}
+
+#Designit:hover + #Designit-gh {
+    display: inline-block;
+    
+}
+
+#Designit:hover{
+    
+    border: 20px solid var(--color-bg-gray);
+}
 
 #ASU{
     background-color: var(--color-sqr-brown);
+}
+
+#ASU-gh{
+    display: none;
+}
+
+
+#ASU:hover{
+    border: 20px solid var(--color-bg-gray);
 }
 
 #UF{
     background-color: var(--color-sqr-mid-blue);
 }
 
+#UF-gh{
+    display: none;
+}
+
+#UF:hover{
+    border: 20px solid var(--color-bg-gray);
+}
+
 #topps{
     background-color: var(--color-sqr-lt-red);
+}
+
+#topps-gh{
+    display: none;
+}
+
+#topps:hover{
+    border: 20px solid var(--color-bg-gray);
 }
 
 #WORLD{
     background-color: var(--color-sqr-str-red);
 }
 
+#WORLD-gh{
+    display: none;
+}
+
+#WORLD:hover{
+    border: 20px solid var(--color-bg-gray);
+}
+
 #HEARST{
     background-color: var(--color-sqr-lt-blue);
+}
+
+#HEARST-gh{
+    display: none;
+}
+
+#HEARST:hover{
+    border: 20px solid var(--color-bg-gray);
 }
 
 #lonley{
     background-color: var(--color-sqr-strong-blue);
 }
 
+#lonley-gh{
+    display: none;
+}
+
+#lonley:hover{
+    border: 20px solid var(--color-bg-gray);
+}
+
 #Clear{
     background-color: var(--color-sqr-yellow);
+}
+
+#Clear-gh{
+    display: none;
+}
+
+#Clear:hover{
+    border: 20px solid var(--color-bg-gray);
 }
 
 .ghost-container{

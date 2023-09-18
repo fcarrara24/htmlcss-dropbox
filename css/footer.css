@@ -37,3 +37,7 @@ li> h3{
 .footer-top>ul>li{
     padding-bottom: 10px;
 }
+
+.footer-top>ul>li:hover{
+    text-decoration: underline;
+}

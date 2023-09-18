@@ -4,6 +4,7 @@ nav{
     width: 100%;
     height: var(--nav-height);
     background-color: white;
+    
 }
 
 .nav-containers{
@@ -36,9 +37,15 @@ nav{
     align-items: center;
 }
 
+.link-height{
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+}
 
-
-
+.link-height:hover{
+    background-color: var(--color-bg-gray);
+}
 
 .hero {
     background-color: var(--color-bg-blue);
@@ -81,3 +88,6 @@ nav{
     font-size: 3em;
 }
 
+.scroll_anchor > a{
+    behavior: smooth;
+}

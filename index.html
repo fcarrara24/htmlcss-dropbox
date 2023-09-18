@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
 
+    <link rel="icon" type="image/svg" href="img/dropbox.svg">
     <!-- fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
@@ -24,9 +25,9 @@
                     <img class="logo" src="img/logo-small.png" alt="logo">
                 </div>
                 <div class="nav-text-container flex justify-start">
-                    <a href="#">Perché Dropbox</a>
-                    <a href="#">Funzioni</a>
-                    <a href="#">Piani e Prezzi</a>
+                    <a class="link-height" href="#">Perché Dropbox</a>
+                    <a class="link-height" href="#">Funzioni</a>
+                    <a class="link-height" href="#">Piani e Prezzi</a>
                 </div>
             </div>
 
@@ -34,9 +35,9 @@
             <div class="nav-containers flex justify-end">
                 
                 <div class="nav-text-container flex justify-start">
-                    <a href="#">Supporto</a>
-                    <a href="#">Contatta l'ufficio vendite</a>
-                    <a href="#">Accedi</a>
+                    <a class="link-height" href="#">Supporto</a>
+                    <a class="link-height" href="#">Contatta l'ufficio vendite</a>
+                    <a class="link-height" href="#">Accedi</a>
                 </div>
                 <div class="btn-container">
                     <button>Inizia</button>
@@ -58,7 +59,7 @@
                         </div>
                 
                         <div class="arrow">
-                            <i class="fa-solid fa-arrow-down"></i>
+                            <a href="#faq" class="scroll_anchor"><i class="fa-solid fa-arrow-down"></i></a>
                         </div>
                     </div>
                     <div class="hero-img">
@@ -177,28 +178,6 @@
                     </div>
                 </div>
             </div>
-            <!-- crea dei flex start per dividere gli elementi dei bottoni -->
-
-            <!-- ... -->
-
-            <!-- brand => quadratoni 
-                puoi mettere la width degli elementti come calc(100% / 3) e flex-shribnk
-
-                left
-                center
-                right
-            -->
-            <section class="flex space-between" id="brand">
-                <div class="brand-box"></div>
-                <div class="brand-box">
-                    <!-- per evitare problemi di overflow puoi mettere overflow auto degli elementi all'interno di questo contenitore -->
-                </div>
-                <div class="brand-box flex"></div>
-            </section>
-
-
-            <!-- faq
-            puoi scegliere di mettre dei summary per aprire gli elementi all'interno del tag -->
         </div>
         <!-- team -->
         <div class="inner-container box " id="team">
@@ -332,6 +311,71 @@
                 </div>
                 <article>Morten Thomson, Global IT Lead</article>
                 </div>
+                <!-- 2 -->
+                <div class="ghost-container" id="ASU-gh">
+                    <div class="svg-ghost"><img src="img/arizona_state_university.svg" alt="asu"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+                <!-- 3 -->
+                <div class="ghost-container" id="UF-gh">
+                    <div class="svg-ghost"><img src="img/university_of_florida.svg" alt="university_of_florida"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+                <!-- 4 -->
+                <div class="ghost-container" id="topps-gh">
+                    <div class="svg-ghost"><img src="img/topps.svg" alt="topps"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+                <!-- 5 -->
+                <div class="ghost-container" id="WORLD-gh">
+                    <div class="svg-ghost"><img src="img/world_bicycle_relief.svg" alt="world-bycicle"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+                <!-- 6 -->
+                <div class="ghost-container" id="HEARST-gh">
+                    <div class="svg-ghost"><img src="img/hearst_corp.svg" alt="hearst_corp"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+                <!-- 7 -->
+                <div class="ghost-container" id="lonley-gh">
+                    <div class="svg-ghost"><img src="img/lonely_planet.svg" alt="lonely_planet"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+                <!-- 8 -->
+                <div class="ghost-container" id="Clear-gh">
+                    <div class="svg-ghost"><img src="img/clear_channel.svg" alt="clear_channel"></div>
+                    <hr>
+                <div class="ghost-text">
+                    "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper, Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper"
+                </div>
+                <article>Morten Thomson, Global IT Lead</article>
+                </div>
+
+
 
             </div>
             <div class="big-square debug flex justify-start wrap">
@@ -437,6 +481,12 @@
             <select class="select-footer" name="language" id="IT">
                 <option class="option-footer" value="IT">
                     <h2>Italiano</h2>
+                </option>
+                <option class="option-footer" value="EN">
+                    <h2>English</h2>
+                </option>
+                <option class="option-footer" value="ES">
+                    <h2>Espa&ntilde;ol</h2>
                 </option>
             </select>
         </div>
