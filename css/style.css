@@ -27,6 +27,9 @@
 	--color-text-lt-gray: #686767;
 	--color-text-white: #eef0f2;
     --color-text-black: #000;
+    --color-link-blue: #5d59f2;
+    --color-text-white: #999997;
+    --color-btn-white: #fff;
 
     --nav-height:50px;
 }
@@ -106,5 +109,13 @@ button{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
     padding: 2% 3%;
     background-color: var(--color-btn-blue);
-    color: var(--color-text-white);
+    color: var(--color-btn-white);
 }
+
+
+
+
+
+
+
+
