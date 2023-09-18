@@ -193,3 +193,16 @@ li > i{
     border-bottom: 1px solid var(--color-text-black);
     border-top: 1px solid var(--color-bg-gray);
 }
+
+/* operazioni */
+.card{
+    max-width: calc(100% / 3.5);
+    padding: 50px 0;
+}
+
+.card > h3{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 1.3em;
+}
+
