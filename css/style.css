@@ -13,6 +13,7 @@
 :root {
 	--color-btn-blue: #4085fb;
 	--color-bg-blue: #c6dbed;
+    --color-bg-white: #ffffff;
 	--color-sqr-green: #a2d39b;
 	--color-sqr-brown: #61082b;
 	--color-sqr-mid-blue: #0093ce;
@@ -21,7 +22,7 @@
 	--color-sqr-lt-blue: #b4d0e7;
 	--color-sqr-strong-blue: #0d2481;
 	--color-sqr-yellow: #ffd830;
-	--color-bg-gray: #f5f5f5;
+	--color-bg-gray: #e8e8ea;
 	--color-text-strong-gray: #424242;
 	--color-text-lt-gray: #686767;
 	--color-text-white: #eef0f2;
@@ -39,6 +40,7 @@ body{
 
 .debug{
     background-color: #a2d39b;
+    margin: 1px solid black;
 }
 
 .outer-container{

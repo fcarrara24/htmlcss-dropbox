@@ -4,7 +4,7 @@ main{
 }
 
 .box > h2{
-    font-size: 2em;
+    font-size: 2.6em;
 
 }
 
@@ -42,7 +42,17 @@ ul{
 li{
     
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
+
+li > i{
+    padding-top: 5px;
+    flex-basis: 25px;
+    margin-bottom: 2em;
+}
+
+
 
 .subscription-top{
 
@@ -62,7 +72,7 @@ li{
 
 .acquista-ora > hr{
     margin: 40px 0;
-    width: calc(100%/7);
+    width: calc(100%/5);
 }
 
 .offer > h4{
@@ -80,7 +90,10 @@ li{
 }
 
 .subscription-content > button{
-    min-width: 90%;
+    min-width: 100%;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* post-correzione */
@@ -94,4 +107,89 @@ li{
 
 #rd2{
     transform: translate(0, 1px);
+}
+
+.indented{
+    line-height: 1.2em;
+}
+
+.offer-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.offer-content > i{
+    transform: translate(-2px, 5px);
+}
+
+/* team content setter */
+#team{
+    margin-top: 60px;
+}
+.team-title{
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid var(--color-bg-gray);
+}
+
+.team-title > i{
+    font-size: 1em;
+}
+
+.team-content{
+    border: 1px solid var(--color-bg-gray);
+}
+
+.team-left-container{
+    flex-basis: 65%;
+    padding: 40px;
+}
+
+.team-subtitle{
+    padding: 20px 0;
+}
+
+.team-description{
+    margin-top: 40px;
+}
+
+.team-right-container{
+    flex-basis: 25%;
+    padding: 40px 20px;
+}
+
+.team-right-container > button{
+    padding: 10px 20px;
+}
+
+/* partners */
+#partner{
+    padding: 100px 0;
+}
+
+.partner-left{
+    /* posiziono l'elemento in modo tasle che occupi il 60% della grandezza della pagina e che il resto si adegui */
+    flex-basis: 60%;
+    flex-shrink: 0;
+}
+
+.partner-right{
+    padding: 40px 30px;
+}
+
+.partner-right > h4{
+    font-size: 1.5em;
+   
+}
+
+.partner-right-description{
+    padding: 25px 0;
+}
+
+#partner-btn{
+    background-color: var(--color-bg-white);
+    color: var(--color-text-black);
+    border-left: 1px solid var(--color-text-black);
+    border-bottom: 1px solid var(--color-text-black);
+    border-top: 1px solid var(--color-bg-gray);
 }
