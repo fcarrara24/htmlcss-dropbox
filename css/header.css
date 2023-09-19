@@ -4,7 +4,8 @@ nav{
     width: 100%;
     height: var(--nav-height);
     background-color: white;
-    
+    /* text-color */
+    color: var(--color-text-lt-gray);
 }
 .link-box{
     margin: 0 10px;
@@ -49,6 +50,7 @@ nav{
 
 .link-box{
     position: relative;
+    
 }
 
 .link-height:hover{
@@ -86,6 +88,8 @@ nav{
 .scroll > li{
     padding-top: 10px;
 }
+
+/* hero */
 
 .hero {
     background-color: var(--color-bg-blue);

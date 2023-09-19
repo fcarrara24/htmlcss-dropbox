@@ -1,4 +1,5 @@
 footer{
+    padding-top: 100px;
     background-color: var(--color-text-black);
 }
 
@@ -36,6 +37,7 @@ li> h3{
 
 .footer-top>ul>li{
     padding-bottom: 10px;
+    color: var(--color-text-white);
 }
 
 .footer-top>ul>li:hover{

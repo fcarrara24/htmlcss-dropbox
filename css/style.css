@@ -10,16 +10,14 @@
     
 }
 html{
+    /* per scorrimento freccia */
     scroll-behavior: smooth;
 }
-.clearfix::after{
-    content: "";
-     clear: both;
-    display: table;
-}
+
 
 :root {
-	--color-btn-blue: #0061ff;
+	--color-btn-purple: #0057e5;
+    --color-btn-blue: #0061ff;
 	--color-bg-blue: #c6dbed;
     --color-bg-white: #ffffff;
 	--color-sqr-green: #a2d39b;
@@ -122,6 +120,9 @@ button{
     color: var(--color-btn-white);
 }
 
+button:hover{
+    background-color: var(--color-btn-purple);
+}
 
 
 
