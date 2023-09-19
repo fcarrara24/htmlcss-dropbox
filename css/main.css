@@ -1,5 +1,6 @@
 main{
     padding-top: 5vw;
+    height: 100%;
     
 }
 
@@ -97,6 +98,10 @@ li > i{
 }
 
 /* post-correzione */
+
+#operations{
+    margin-top: 180px;
+}
 #brand{
     width: 100%;
 }
@@ -257,10 +262,10 @@ li > i{
 }
 
 #Designit-gh{
-    display: inline-block;
+    display: none;
 }
 
-#Designit:hover + #Designit-gh {
+#Designit:hover ~ #Designit-gh::after {
     display: inline-block;
     
 }
@@ -276,6 +281,11 @@ li > i{
 
 #ASU-gh{
     display: none;
+}
+
+#ASU:hover #ASU-gh {
+    display: inline-block;
+    
 }
 
 

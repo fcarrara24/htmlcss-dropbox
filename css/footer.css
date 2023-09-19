@@ -40,4 +40,6 @@ li> h3{
 
 .footer-top>ul>li:hover{
     text-decoration: underline;
+    cursor: pointer;
+
 }
